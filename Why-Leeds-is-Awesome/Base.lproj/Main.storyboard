@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -21,19 +20,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leeds-City-Night2" translatesAutoresizingMaskIntoConstraints="NO" id="TAe-hB-LFx">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ng5-tg-tUT" userLabel="City Details Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ng5-tg-tUT" userLabel="City Details Stack View">
                                 <rect key="frame" x="20" y="40" width="173" height="118"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Jne-h4-7hv" userLabel="City Title Stack View">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Jne-h4-7hv" userLabel="City Title Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="173" height="53"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="City of Leeds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-UZ-9ra">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City of Leeds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-UZ-9ra">
                                                 <rect key="frame" x="0.0" y="0.0" width="148" height="30"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&quot;Pro Rege et Lege&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-ck-rtc">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Pro Rege et Lege&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-ck-rtc">
                                                 <rect key="frame" x="0.0" y="30" width="173" height="24"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,10 +43,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y8w-Ho-Ysb" userLabel="Compass Stack View">
                                         <rect key="frame" x="0.0" y="83" width="173" height="35"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" misplaced="YES" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="OPD-xE-FPc">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="OPD-xE-FPc">
                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="35"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="England, UK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziG-td-O4H">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="England, UK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziG-td-O4H">
                                                 <rect key="frame" x="61" y="0.0" width="112" height="35"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,20 +110,26 @@
         <!--About View Controller-->
         <scene sceneID="GCx-ym-vOB">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="icN-yZ-DrQ" customClass="AboutViewController" customModule="Why_Leeds_is_Awesome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="icN-yZ-DrQ" customClass="AboutViewController" customModule="Why_Leeds_is_Awesome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VK0-Tk-9uv"/>
                         <viewControllerLayoutGuide type="bottom" id="hn2-a8-Nij"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QiR-Kv-iIj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="930"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leeds-Observation-View" translatesAutoresizingMaskIntoConstraints="NO" id="v1s-i5-jp5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="ApD-9F-Hkb"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o27-1z-74D" customClass="AquaButton" customModule="Why_Leeds_is_Awesome" customModuleProvider="target">
-                                <rect key="frame" x="10" y="10" width="53" height="30"/>
+                                <rect key="frame" x="10" y="10" width="70" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Iut-FK-8Nj"/>
-                                    <constraint firstAttribute="width" constant="53" id="U4C-UL-Q4M"/>
+                                    <constraint firstAttribute="width" constant="70" id="U4C-UL-Q4M"/>
                                 </constraints>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
@@ -132,52 +137,42 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgT-ul-RyS">
-                                <rect key="frame" x="0.0" y="140" width="375" height="810"/>
+                                <rect key="frame" x="0.0" y="149" width="375" height="781"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qto-Vq-uj9" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="781"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qto-Vq-uj9" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="749.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-ks-EME">
-                                                <rect key="frame" x="8" y="8" width="355" height="765"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-ks-EME" userLabel="Main SV">
+                                                <rect key="frame" x="5" y="5" width="365" height="563"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vST-od-zl6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="48"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vST-od-zl6" userLabel="Population SV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="44"/>
                                                         <subviews>
                                                             <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy0-Ki-Ae2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="103" height="24"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.61802884615384612" green="0.61802884615384612" blue="0.61802884615384612" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="757,700" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LS3-at-jO1">
-                                                                <rect key="frame" x="0.0" y="24" width="62" height="24"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="24" id="0SR-M8-w1e"/>
-                                                                </constraints>
+                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="757,700" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LS3-at-jO1">
+                                                                <rect key="frame" x="0.0" y="24" width="62" height="20"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="DCc-lK-cO9">
-                                                        <rect key="frame" x="0.0" y="58" width="355" height="189"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="DCc-lK-cO9" userLabel="History SV">
+                                                        <rect key="frame" x="0.0" y="54" width="365" height="183"/>
                                                         <subviews>
                                                             <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brief History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVk-HH-JI4">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="24"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="173" id="BKI-mA-GIa"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="0.0" y="0.0" width="119" height="24"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.61802884615384612" green="0.61802884615384612" blue="0.61802884615384612" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiK-ll-SR0" userLabel="History Text">
-                                                                <rect key="frame" x="0.0" y="24" width="355" height="165"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="165" id="3kg-yX-WWP"/>
-                                                                    <constraint firstAttribute="width" constant="355" id="Zlm-Kb-an0"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="0.0" y="24" width="365" height="159"/>
                                                                 <string key="text">The name Leeds derives from the old Brythonic word Ladenses meaning "people of the fast-flowing river", in reference to the River Aire which still flows through the city. This name originally referred to the forested area covering most of the Brythonic kingdom of Elmet, which existed during the 5th century into the early 7th century.</string>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -185,24 +180,25 @@
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="PF3-S6-THn">
-                                                        <rect key="frame" x="0.0" y="257" width="355" height="249"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="PF3-S6-THn" userLabel="Description SV">
+                                                        <rect key="frame" x="0.0" y="247" width="365" height="242"/>
                                                         <subviews>
                                                             <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDR-Pr-KQh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="173" height="24"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="110" height="24"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="173" id="Jz9-4z-z9p"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.61802884615384612" green="0.61802884615384612" blue="0.61802884615384612" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
+                                                                <variation key="default">
+                                                                    <mask key="constraints">
+                                                                        <exclude reference="Jz9-4z-z9p"/>
+                                                                    </mask>
+                                                                </variation>
                                                             </label>
                                                             <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZe-Xi-47H" userLabel="Description Text">
-                                                                <rect key="frame" x="0.0" y="24" width="355" height="225"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="355" id="a0N-WD-oBr"/>
-                                                                    <constraint firstAttribute="height" constant="225" id="d7U-dj-hqA"/>
-                                                                </constraints>
+                                                                <rect key="frame" x="0.0" y="24" width="351" height="218"/>
                                                                 <string key="text">Leeds is a city in West Yorkshire, England. Historically in Yorkshire's West Riding, the history of Leeds can be traced to the 5th century when the name referred to a wooded area of the Kingdom of Elmet. The name has been applied to many administrative entities over the centuries. It changed from being the appellation of a small manorial borough in the 13th century, through several incarnations, to being the name attached to the present metropolitan borough.</string>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -210,22 +206,17 @@
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="m3J-MH-RsX">
-                                                        <rect key="frame" x="0.0" y="516" width="355" height="249"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="m3J-MH-RsX" userLabel="Things to Do SV">
+                                                        <rect key="frame" x="0.0" y="499" width="365" height="64"/>
                                                         <subviews>
-                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Things to Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7If-1W-ffT">
+                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things to Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7If-1W-ffT">
                                                                 <rect key="frame" x="0.0" y="0.0" width="122" height="24"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.61802884615384612" green="0.61802884615384612" blue="0.61802884615384612" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9n1-q8-zj2" userLabel="Things to Do Text">
-                                                                <rect key="frame" x="0.0" y="24" width="355" height="225"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="225" id="3Fw-ms-mnx"/>
-                                                                    <constraint firstAttribute="width" constant="355" id="Ht6-ea-KSG"/>
-                                                                </constraints>
-                                                                <string key="text">Leeds is a city in West Yorkshire, England. Historically in Yorkshire's West Riding, the history of Leeds can be traced to the 5th century when the name referred to a wooded area of the Kingdom of Elmet. The name has been applied to many administrative entities over the centuries. It changed from being the appellation of a small manorial borough in the 13th century, through several incarnations, to being the name attached to the present metropolitan borough.</string>
+                                                            <label opaque="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are many popular places to visit in Leeds such as..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9n1-q8-zj2" userLabel="Things to Do Text">
+                                                                <rect key="frame" x="0.0" y="24" width="363" height="40"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -242,9 +233,10 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="aJz-ks-EME" firstAttribute="centerY" secondItem="qto-Vq-uj9" secondAttribute="centerY" id="U7k-F3-dYf"/>
-                                            <constraint firstItem="aJz-ks-EME" firstAttribute="leading" secondItem="qto-Vq-uj9" secondAttribute="leadingMargin" id="YDX-gZ-PVQ"/>
-                                            <constraint firstItem="aJz-ks-EME" firstAttribute="top" secondItem="qto-Vq-uj9" secondAttribute="topMargin" id="pLX-8O-Cfg"/>
+                                            <constraint firstAttribute="trailing" secondItem="aJz-ks-EME" secondAttribute="trailing" constant="5" id="MZt-vQ-BYi"/>
+                                            <constraint firstItem="aJz-ks-EME" firstAttribute="leading" secondItem="qto-Vq-uj9" secondAttribute="leading" constant="5" id="cd3-Px-D0C"/>
+                                            <constraint firstItem="aJz-ks-EME" firstAttribute="top" secondItem="qto-Vq-uj9" secondAttribute="top" constant="5" id="wn4-ga-0wL"/>
+                                            <constraint firstItem="aJz-ks-EME" firstAttribute="centerY" secondItem="qto-Vq-uj9" secondAttribute="centerY" id="yj2-ZT-ipU"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -255,12 +247,6 @@
                                     <constraint firstItem="qto-Vq-uj9" firstAttribute="top" secondItem="qgT-ul-RyS" secondAttribute="top" id="ggI-3V-bcM"/>
                                 </constraints>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leeds-Observation-View" translatesAutoresizingMaskIntoConstraints="NO" id="v1s-i5-jp5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="ApD-9F-Hkb"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -268,7 +254,7 @@
                             <constraint firstItem="o27-1z-74D" firstAttribute="leading" secondItem="QiR-Kv-iIj" secondAttribute="leading" constant="10" id="FsN-AV-IPj"/>
                             <constraint firstAttribute="trailing" secondItem="v1s-i5-jp5" secondAttribute="trailing" id="QXe-uI-Ued"/>
                             <constraint firstItem="v1s-i5-jp5" firstAttribute="top" secondItem="QiR-Kv-iIj" secondAttribute="top" id="ROl-Xe-AhE"/>
-                            <constraint firstItem="qgT-ul-RyS" firstAttribute="top" secondItem="v1s-i5-jp5" secondAttribute="bottom" id="SHj-BZ-muI"/>
+                            <constraint firstItem="qgT-ul-RyS" firstAttribute="top" secondItem="v1s-i5-jp5" secondAttribute="bottom" constant="9" id="SHj-BZ-muI"/>
                             <constraint firstItem="v1s-i5-jp5" firstAttribute="leading" secondItem="QiR-Kv-iIj" secondAttribute="leading" id="W5s-ij-ieP"/>
                             <constraint firstAttribute="bottom" secondItem="qgT-ul-RyS" secondAttribute="bottom" id="jPd-lh-5vs"/>
                             <constraint firstAttribute="trailing" secondItem="qgT-ul-RyS" secondAttribute="trailing" id="klO-Pi-q0I"/>
@@ -277,7 +263,7 @@
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="950"/>
+                    <size key="freeformSize" width="375" height="930"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3n-VK-QYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
