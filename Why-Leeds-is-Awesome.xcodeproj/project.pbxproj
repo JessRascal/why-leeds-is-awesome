@@ -12,6 +12,9 @@
 		C819CB711C6D1517003D3E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C819CB6F1C6D1517003D3E10 /* Main.storyboard */; };
 		C819CB731C6D1517003D3E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C819CB721C6D1517003D3E10 /* Assets.xcassets */; };
 		C819CB761C6D1517003D3E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C819CB741C6D1517003D3E10 /* LaunchScreen.storyboard */; };
+		C819CB7E1C6D1F0D003D3E10 /* AquaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819CB7D1C6D1F0D003D3E10 /* AquaButton.swift */; };
+		C819CB801C6D3E2F003D3E10 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819CB7F1C6D3E2F003D3E10 /* AboutViewController.swift */; };
+		C819CB821C6D3E46003D3E10 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C819CB811C6D3E46003D3E10 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C819CB721C6D1517003D3E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C819CB751C6D1517003D3E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C819CB771C6D1517003D3E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C819CB7D1C6D1F0D003D3E10 /* AquaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaButton.swift; sourceTree = "<group>"; };
+		C819CB7F1C6D3E2F003D3E10 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C819CB811C6D3E46003D3E10 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				C819CB721C6D1517003D3E10 /* Assets.xcassets */,
 				C819CB741C6D1517003D3E10 /* LaunchScreen.storyboard */,
 				C819CB771C6D1517003D3E10 /* Info.plist */,
+				C819CB7D1C6D1F0D003D3E10 /* AquaButton.swift */,
+				C819CB7F1C6D3E2F003D3E10 /* AboutViewController.swift */,
+				C819CB811C6D3E46003D3E10 /* PhotosViewController.swift */,
 			);
 			path = "Why-Leeds-is-Awesome";
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				C819CB6E1C6D1517003D3E10 /* ViewController.swift in Sources */,
 				C819CB6C1C6D1517003D3E10 /* AppDelegate.swift in Sources */,
+				C819CB801C6D3E2F003D3E10 /* AboutViewController.swift in Sources */,
+				C819CB7E1C6D1F0D003D3E10 /* AquaButton.swift in Sources */,
+				C819CB821C6D3E46003D3E10 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
