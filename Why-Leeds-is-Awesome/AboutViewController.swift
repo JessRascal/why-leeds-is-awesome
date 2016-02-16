@@ -9,9 +9,6 @@
 import UIKit
 
 class AboutViewController: UIViewController {
-
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var contentView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,21 +24,5 @@ class AboutViewController: UIViewController {
     @IBAction func backButtonPressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
-//    
-//    override func viewDidLayoutSubviews()
-//    {
-//        let scrollViewBounds = scrollView.bounds
-//        let containerViewBounds = contentView.bounds
-//        
-//        var scrollViewInsets = UIEdgeInsetsZero
-//        scrollViewInsets.top = scrollViewBounds.size.height/2.0;
-//        scrollViewInsets.top -= contentView.bounds.size.height/2.0;
-//        
-//        scrollViewInsets.bottom = scrollViewBounds.size.height/2.0
-//        scrollViewInsets.bottom -= contentView.bounds.size.height/2.0;
-//        scrollViewInsets.bottom += 1
-//        
-//        scrollView.contentInset = scrollViewInsets
-//    }
 
 }
